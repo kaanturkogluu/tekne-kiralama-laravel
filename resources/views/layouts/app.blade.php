@@ -107,6 +107,11 @@
                         <li><a href="#" class="text-base text-gray-300 hover:text-white">Tekne Satışı</a></li>
                         <li><a href="#" class="text-base text-gray-300 hover:text-white">Sigorta</a></li>
                         <li><a href="#" class="text-base text-gray-300 hover:text-white">Teknik Servis</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase mb-4">{{ __('nav.blog') }}</h3>
+                    <ul class="space-y-4">
                         <li><a href="{{ url('/blog') }}" class="text-base text-gray-300 hover:text-white">{{ __('nav.blog') }}</a></li>
                     </ul>
                 </div>
