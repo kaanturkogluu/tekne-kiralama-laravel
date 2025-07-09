@@ -56,13 +56,13 @@
                         <a href="{{ url('/events') }}" class="text-gray-500 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">{{ __('nav.events') }}</a>
                         <a href="{{ url('/blog') }}" class="text-gray-500 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">{{ __('nav.blog') }}</a>
                 
-                        <a href="#" class="text-gray-500 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">{{ __('nav.contact') }}</a>
+                        <a href="{{ url('/contact')}}" class="text-gray-500 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">{{ __('nav.contact') }}</a>
                     </div>
                 </div>
                 <!-- Auth Buttons -->
                 <div class="flex items-center space-x-4">
-                    <a href="#" class="text-gray-500 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">{{ __('nav.login') }}</a>
-                    <a href="#" class="bg-primary hover:bg-secondary text-white px-4 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out">{{ __('nav.register') }}</a>
+                    <a href="{{ url('/login') }}" class="text-gray-500 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">{{ __('nav.login') }}</a>
+                    
                 </div>
             </div>
         </div>

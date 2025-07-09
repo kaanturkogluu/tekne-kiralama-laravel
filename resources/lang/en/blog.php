@@ -10,4 +10,5 @@ return [
     'sample_excerpt_2' => 'Suggestions for discovering the most beautiful bays of the Aegean and Mediterranean.',
     'sample_title_3' => 'Safety at Sea: What You Need to Know',
     'sample_excerpt_3' => 'Precautions and advice for a safe holiday at sea.',
+    'back_to_list' => 'Back to all blog posts',
 ]; 
