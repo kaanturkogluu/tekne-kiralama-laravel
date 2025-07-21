@@ -35,6 +35,14 @@
         </div>
     </div>
 
+    <!-- Özel Etkinlikler Bilgilendirme -->
+    <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-900 p-4 max-w-3xl mx-auto my-8 rounded-lg flex items-center justify-between">
+        <div>
+            <strong>Özel Etkinlikler:</strong> Evlilik teklifi, kına gecesi, doğum günü ve daha fazlası için teknenizde unutulmaz anlar yaşayın! Geçmiş etkinlikleri görmek ve kendi talebinizi oluşturmak için tıklayın.
+        </div>
+        <a href="{{ url('/ozel-etkinlikler') }}" class="ml-4 bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-md font-semibold transition">Detaylar</a>
+    </div>
+
     <!-- Search Section -->
     <div class="bg-white py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
