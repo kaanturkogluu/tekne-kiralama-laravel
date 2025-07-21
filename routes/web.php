@@ -127,4 +127,34 @@ Route::prefix('admin')->group(function () {
     Route::get('/settings', function () {
         return view('admin.settings.index');
     });
+    
+    // Bildirim Routes
+    Route::get('/notifications', function () {
+        return view('admin.notifications.index');
+    });
+    
+    Route::get('/notifications/settings', function () {
+        return view('admin.notifications.settings');
+    });
+    
+    Route::get('/notifications/templates', function () {
+        return view('admin.notifications.templates');
+    });
+    
+    Route::get('/notifications/logs', function () {
+        return view('admin.notifications.logs');
+    });
+    
+    // Rapor Routes
+    Route::get('/reports', function () {
+        return view('admin.reports.index');
+    });
+    
+    Route::get('/reports/sales', function () {
+        return view('admin.reports.sales');
+    });
+    
+    Route::get('/reports/reservations', function () {
+        return view('admin.reports.reservations');
+    });
 });
