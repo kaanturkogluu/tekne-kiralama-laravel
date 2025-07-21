@@ -12,7 +12,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('content');
-            $table->foreignId('author_id')->constrained('users')->onDelete('set null')->nullable();
+            $table->foreignId('author_id')->nullable()->constrained('users')->onDelete('set null');
             $table->string('image')->nullable();
             $table->timestamp('published_at')->nullable();
             $table->enum('status', ['draft', 'published'])->default('draft');
